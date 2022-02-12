@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio de Sesion</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <link type="text/css" rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css" />
+        <link href="Css/Estilo.css" rel="stylesheet" type="text/Css"/>
+         <link href="Css/estiloform.css" rel="stylesheet" type="text/Css"/>
+        <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+       
+
+    </head>
+    <body>
+        <nav class="navetilo"><!-- menu de navegacion -->    
+            <a class="barra-enlace"  href="index.html">Home</a>
+            <a class="barra-enlace" href="">Nosotros</a>
+            <a class="barra-enlace" href="">Contacto</a>
+           </nav>
+       
+        <form class="form-inicio" action="validar.php" method="post">
+            
+        <h2>Iniciar Sesion</h2>
+        Usuario<input class="form-letras" type="text" name="usuario" id="usuario" placeholder=" Ingrese su usuario"/>
+
+        Contraseña<input class="form-letras" type="password" name="contraseña" id="contraseña" placeholder=" Ingrese su contraseña"/>
+        
+        <input type="submit" class="btn btn-primary" value="Ingresar"> 
+        <br>
+        <br>
+        <p>¿No tienes una cuenta? <a href="CrearCuenta.php">Registrate</a></p>
+        <p>¿No recuerdas tu cuenta? <a href="#">Recuperar</a></p>
+            
+    </form>
+    </body>
+</html>
+
